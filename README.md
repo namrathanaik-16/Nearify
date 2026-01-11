@@ -1,37 +1,16 @@
-# Nearify
+# React + Vite
 
-**Bearify** is a smart, mood-based place recommender that helps users discover the perfect spots based on how they feel. Instead of generic suggestions, Bearify personalizes place recommendations using your current mood, preferences, and location — making every outing feel just right.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🧠 Key Features
+Currently, two official plugins are available:
 
-- **Mood-Driven Recommendations**  
-  Recommend places that match the user’s current mood (e.g., happy, relaxed, adventurous).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- **Location Awareness**  
-  Uses real-time location to suggest nearby places that fit the mood.
+## React Compiler
 
-- **Personalized Experience**  
-  Learns from user feedback and preferences to improve future suggestions.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- **Easy to Use**  
-  Simple and intuitive interface for quick recommendations.
+## Expanding the ESLint configuration
 
-## 🚀 How It Works
-
-1. **Detect Mood** — Users input or select their current mood.  
-2. **Analyze Context** — Nearify processes mood, preferences, and location.  
-3. **Recommend Places** — Provides a curated list of nearby places that suit the mood.
-
-## 📌 Why Nearify?
-
-Planning where to go based on how you’re feeling shouldn’t be hard. With Bearify, discover places that truly resonate with your mood — whether it’s a chill café, an upbeat hangout, or a scenic park.
-
-## 🛠️ Tech Stack
-
-- **Frontend: React (v19), Vite (v7), Vanilla CSS (Custom Design System) 
-- **Backend: Simulated (The project relies on authService and placesService which are client-side mocks)  
-- **Database:LocalStorage (Used to simulate User Session & Favorites persistence)
-- **APIs:Unsplash Image URLs (Directly embedded in mock data), Simulation Utils (setTimeout for async delays)
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
