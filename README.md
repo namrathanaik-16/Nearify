@@ -1,16 +1,39 @@
-# React + Vite
+# Bearify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Bearify** is a smart, mood-based place recommender that helps users discover the perfect spots based on how they feel. Instead of generic suggestions, Bearify personalizes place recommendations using your current mood, preferences, and location — making every outing feel just right.
 
-Currently, two official plugins are available:
+## 🧠 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Mood-Driven Recommendations**  
+  Recommend places that match the user’s current mood (e.g., happy, relaxed, adventurous).
 
-## React Compiler
+- **Location Awareness**  
+  Uses real-time location to suggest nearby places that fit the mood.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Personalized Experience**  
+  Learns from user feedback and preferences to improve future suggestions.
 
-## Expanding the ESLint configuration
+- **Easy to Use**  
+  Simple and intuitive interface for quick recommendations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How It Works
+
+1. **Detect Mood** — Users input or select their current mood.  
+2. **Analyze Context** — Bearify processes mood, preferences, and location.  
+3. **Recommend Places** — Provides a curated list of nearby places that suit the mood.
+
+## 📌 Why Bearify?
+
+Planning where to go based on how you’re feeling shouldn’t be hard. With Bearify, discover places that truly resonate with your mood — whether it’s a chill café, an upbeat hangout, or a scenic park.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** (React / Vue / Flutter / etc.)  
+- **Backend:** (Node.js / Django / etc.)  
+- **Database:** (MongoDB / PostgreSQL / etc.)  
+- **APIs:** Mood classification, Maps/Places API
+
+*(Update this section with your actual tech choices.)*
+
+## 📁 Repository Structure
+
